@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="title">Temperature Converter</h1>
+        <main>
+            <section id="input" > 
+                <h3 class="inner-title" id="input-heading">Enter Temperature </h3>
+                <div>
+                    <label for="degree" class="lbl">DEGREE</label>
+                    <div>
+                        <input type="number" name="degree" id="input-degree" class="input-box">
+                        <select id="select-degree" >
+                            <option value="C" selected>&deg;C</option>
+                            <option value="F">&deg;F</option>
+                            <option value="K">K</option>
+                          </select>
+                    </div>
+                </div>
+                <div>
+                    <label for="convert" class="lbl">CONVERT TO</label>
+                    <div>
+                        <select id="select-convert">
+                            <option value="F" selected>Farheinheit (&deg;F)</option>
+                            <option value="K">Kelvin (K)</option>
+                            <option value="C">Celsius (&deg;C)</option>
+                          </select>
+                    </div>
+                </div>
+
+                <div class="buttondiv">
+                    <button id="convert-btn" onclick="handleclick()">CONVERT</button>
+                </div>
+            
+            </section>
+            
+            <section class="divider"></section>
+            <section id="output">
+                <h3  class="inner-title" id="output-heading">OUTPUT</h3>
+                <h1 id="output-value">0 &deg;F</h1>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+</html>
