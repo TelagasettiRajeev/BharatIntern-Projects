@@ -191,8 +191,9 @@ main h3{
 .tv-container video{
     position: absolute;
     z-index: 1;
-    width: 100%;
-    margin-left: -100%;
+    width: 73%;
+    margin-left: -87%;
+    margin-top: 90px;
 }
 
 .tv-container img{
@@ -257,10 +258,11 @@ main h3{
 }
 .tv-container3 video{
     position: absolute;
-    top: 40px;
+    top: 0px;
     right: 120px;
-
     width: 65%;
+
+    margin-top: 50px;
 }
 
 
